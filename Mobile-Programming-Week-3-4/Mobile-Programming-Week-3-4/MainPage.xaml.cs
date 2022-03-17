@@ -26,7 +26,10 @@ namespace Mobile_Programming_Week_3_4
             }
 
 
-            Content = stackLayout;
+            Content = new ScrollView
+            {
+                Content = stackLayout
+            };
             InitializeComponent();
         }
 
